@@ -1,0 +1,42 @@
+{
+  "id": "pf2e-vyklades-dark-knight-zinneryte",
+  "title": "PF2e Vyklade's Dark knight (By Zinneryte)",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "flags": {
+    "pf2e-vyklades-dark-knight-zinneryte": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "recharge": {
+            "label": "Recharge",
+            "description": "When you use a Dark Impulse with the Overflow trait, that Impulse action goes into a state called Recharge. Impulses under Recharge cannot be used until this state is cleared. You automatically clear the Recharge state of all Impulses after Dark Shroud ends."
+          },
+          "wind-up": {
+            "label": "Wind-Up",
+            "description": "Actions or Spells with this trait modify and enhance the next Strike you make on your Turn, even if that Strike is part of another action or activity. An attack may only benefit from a single Wind-Up action."
+          },
+		  "dark-knight": {
+			  "label": "Dark Knight",
+			  "description": "This indicates abilities from the Dark Knight subclass."
+        }
+      }
+    }
+  }
+  },
+  "packs": [
+    {
+      "name": "dark-knight",
+      "label": "Dark Knight",
+      "path": "packs/dark-knight",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
