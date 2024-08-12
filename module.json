@@ -38,5 +38,7 @@
         "ASSISTANT": "OWNER"
       }
     }
-  ]
+  ],
+	"manifest": "https://raw.githubusercontent.com/ZzinnerGamer/pf2e-vykblades-dark-knight-zinneryte/master/module.json",
+	"download": "https://github.com/ZzinnerGamer/pf2e-vyklades-reaper-zinneryte/archive/refs/heads/main.zip"
 }
